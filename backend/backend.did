@@ -1,0 +1,15 @@
+type Time = int;
+service : {
+  addPost: (text, text, text) -> ();
+  getPosts: () ->
+   (vec
+     record {
+       nat;
+       record {
+         author: text;
+         body: text;
+         timestamp: Time;
+         title: text;
+       };
+     }) query;
+}

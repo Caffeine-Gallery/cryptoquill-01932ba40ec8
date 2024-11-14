@@ -1,0 +1,67 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.uk-heading-line > span {
+    background: #f8f8f8;
+    padding: 0 10px;
+}
+
+.uk-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.uk-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.uk-card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.uk-card-body {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.uk-button-primary {
+    background-color: #0077cc;
+    border-color: #0077cc;
+}
+
+.uk-button-primary:hover {
+    background-color: #005fa3;
+    border-color: #005fa3;
+}
+
+.uk-form-label {
+    font-weight: bold;
+}
+
+.uk-form-controls {
+    margin-top: 5px;
+}
+
+.uk-input, .ql-container, .ql-toolbar {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.ql-container {
+    border-top: none;
+}
+
+.ql-toolbar {
+    border-bottom: none;
+}
+
+#newPostForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
